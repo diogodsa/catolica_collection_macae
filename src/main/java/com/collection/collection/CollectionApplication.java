@@ -13,9 +13,10 @@ public class CollectionApplication {
 		SpringApplication.run(CollectionApplication.class, args);
 	}
 
-	@RequestMapping("/")
-	String home(){
-		return "Hello Word rrrr!";
+	@RequestMapping("/v1/user/michel")
+	String testeMichel(){
+
+		return "Penta Kill!";
 	}
 
 }

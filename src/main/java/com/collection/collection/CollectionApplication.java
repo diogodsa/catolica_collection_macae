@@ -19,4 +19,10 @@ public class CollectionApplication {
 		return "Penta Kill!";
 	}
 
+	@RequestMapping("/user/marcelo")
+	String testemarcelo(){
+		return "Hello Word Marcelo";
+	}
+
 }
+

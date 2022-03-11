@@ -18,4 +18,10 @@ public class CollectionApplication {
 		return "Hello Word rrrr!";
 	}
 
+	@RequestMapping("/user/marcelo")
+	String testemarcelo(){
+		return "Hello Word Marcelo";
+	}
+
 }
+

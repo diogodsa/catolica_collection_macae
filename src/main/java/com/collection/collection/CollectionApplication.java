@@ -15,7 +15,12 @@ public class CollectionApplication {
 
 	@RequestMapping("/")
 	String home(){
-		return "Hello Word rrrr!";
+		return "Hello Word!";
+	}
+
+	@RequestMapping("/v1/user/Gabriel")
+	String testeGabriel(){
+		return "Hello User v1!";
 	}
 
 }

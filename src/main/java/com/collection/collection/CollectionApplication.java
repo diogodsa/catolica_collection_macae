@@ -29,6 +29,13 @@ public class CollectionApplication {
 
 		meuCarro.usuario = usuario;
 
+		Endereco endereco = new Endereco();
+		endereco.endereco = "Glória";
+		endereco.rua = "Alameda";
+		endereco.cep = "27910000";
+
+		usuario.endereco = endereco;
+
 		Gson gson = new Gson();
 		String json = gson.toJson(meuCarro);
 

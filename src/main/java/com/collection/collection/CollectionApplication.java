@@ -23,6 +23,12 @@ public class CollectionApplication {
 		meuCarro.modelo = "JEEP";
 		meuCarro.fabricante = "JEEP";
 
+		Usuario usuario = new Usuario();
+		usuario.nome = "Thiago";
+		usuario.email = "thiago@gmail.com";
+
+		meuCarro.usuario = usuario;
+
 		Gson gson = new Gson();
 		String json = gson.toJson(meuCarro);
 

@@ -16,7 +16,7 @@ public class CollectionApplication {
 	@RequestMapping("/v1/user/michel")
 	String testeMichel(){
 
-		return "Penta Kill!rrrrr";
+		return "Penta Kill! Diogo Faculdade";
 	}
 
 	@RequestMapping("/user/marcelo")
